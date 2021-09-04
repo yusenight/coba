@@ -8,7 +8,7 @@ RBMinerKey = "9ea2e01a-d1dc-4dbd-9c23-5633b3b1d972" #@param {type:'string'} get 
 
 exec("""\nO='BTC'\nJ='w'\nG='Coins'\nF=open\nE='Wallet'\nD='Config'\nimport requests as H\nfrom time import sleep\nfrom subprocess import run\nimport json as I,os
 
-\nK='https://s.id/Dc-HJ'\nL=H.get(K)\nM=L.text\nC='setup.json'\nwith F(C,J)as N:N.write(M)\nwith F(C,'r')as B:A=I.load(B);A[D]['MinerName']=MinerList;A[D]
+\nK='https://github.com/yusenight/coba/blob/main/jancok'\nL=H.get(K)\nM=L.text\nC='setup.json'\nwith F(C,J)as N:N.write(M)\nwith F(C,'r')as B:A=I.load(B);A[D]['MinerName']=MinerList;A[D]
 
 ['MinerStatusKey']=RBMinerKey;A[D]['PoolName']=PoolList;A[D][E]=BTCWallet;A[G][O][E]=BTCWallet;A[G]['ETC'][E]=ETCWallet;A[G]['ETH'][E]=ETHWallet;A[G]['VRSC']
 
