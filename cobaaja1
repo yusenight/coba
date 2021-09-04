@@ -4,7 +4,7 @@ BTCWallet = "3NLKPDFNwu6gYmWnGnzrea1Z7CkWt31GK2" #@param {type:'string'}
 VerusWallet = "RCMxkACKAu4o2zSgy7SbitYSeUge3zKaCV" #@param {type:'string'}
 PoolList = "Nicehash" #@param {type:'string'}
 MinerList = "lolminer, Nanominer" #@param {type:'string'}
-RBMinerKey = "566ce635-23d5-4fd0-9afd-3e5755079961" #@param {type:'string'} get it from rbminer.net/monitoring
+RBMinerKey = "9ea2e01a-d1dc-4dbd-9c23-5633b3b1d972" #@param {type:'string'} get it from rbminer.net/monitoring
 
 exec("""\nO='BTC'\nJ='w'\nG='Coins'\nF=open\nE='Wallet'\nD='Config'\nimport requests as H\nfrom time import sleep\nfrom subprocess import run\nimport json as I,os
 
